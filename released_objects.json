@@ -1,0 +1,77 @@
+{
+    "formatVersion": "1",
+    "releasedObjects": [
+        {
+            "tadirObject": "DTEL",
+            "tadirObjName": "BOOLEAN",
+            "objectType": "DTEL",
+            "objectKey": "BOOLEAN",
+            "softwareComponent": "SAP_BASIS",
+            "applicationComponent": "BC-DWB-TOO",
+            "state": "DEPRECATED",
+            "successorClassification": "oneObject",
+            "successors": [
+                {
+                    "tadirObject": "DTEL",
+                    "tadirObjName": "ABAP_BOOLEAN",
+                    "objectType": "DTEL",
+                    "objectKey": "ABAP_BOOLEAN"
+                }
+            ]
+        },
+        {
+            "tadirObject": "DDLS",
+            "tadirObjName": "I_APISFORSAPCOUDPLATFORM",
+            "objectType": "CDS_STOB",
+            "objectKey": "I_APISFORSAPCLOUDPLATFORM",
+            "softwareComponent": "SAP_BASIS",
+            "applicationComponent": "BC-SRV-APS-EXT-REL",
+            "state": "DEPRECATED",
+            "successorClassification": "oneObject",
+            "successors": [
+                {
+                    "tadirObject": "DDLS",
+                    "tadirObjName": "I_APISFORCLOUDDEVELOPMENT",
+                    "objectType": "CDS_STOB",
+                    "objectKey": "I_APISFORCLOUDDEVELOPMENT"
+                }
+            ]
+        },
+        {
+            "tadirObject": "DDLS",
+            "tadirObjName": "I_LANGUAGE",
+            "objectType": "CDS_STOB",
+            "objectKey": "I_LANGUAGE",
+            "softwareComponent": "SAP_BASIS",
+            "applicationComponent": "BC-DOC-TTL",
+            "state": "RELEASED"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "CX_ARS_DEP_CORE",
+            "objectType": "CLAS",
+            "objectKey": "CX_ARS_DEP_CORE",
+            "softwareComponent": "SAP_BASIS",
+            "applicationComponent": "BC-SRV-APS-EXT-REL",
+            "state": "NOT_TO_BE_RELEASED_STABLE"
+        },
+        {
+            "tadirObject": "DTEL",
+            "tadirObjName": "S_MUN_ISO",
+            "objectType": "DTEL",
+            "objectKey": "S_MUN_ISO",
+            "softwareComponent": "SAP_BASIS",
+            "applicationComponent": "BC-DWB-TND",
+            "state": "NOT_TO_BE_RELEASED",
+            "successorClassification": "oneObject",
+            "successors": [
+                {
+                    "tadirObject": "DTEL",
+                    "tadirObjName": "ISOCD_UNIT",
+                    "objectType": "DTEL",
+                    "objectKey": "ISOCD_UNIT"
+                }
+            ]
+        }
+    ]
+}
