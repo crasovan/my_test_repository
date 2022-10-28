@@ -56,6 +56,25 @@
             "state": "notToBeReleasedStable"
         },
         {
+            "tadirObject":"FUGR",
+            "tadirObjName":"SBAL_DB",
+            "objectType":"FUNC",
+            "objectKey":"BAL_DB_DELETE",
+            "softwareComponent":"SAP_BASIS",
+            "applicationComponent":"BC-SRV-BAL",
+            "state":"NOT_TO_BE_RELEASED",
+            "successorClassification":"oneObject",
+            "successors":
+            [
+             {
+              "tadirObject":"CLAS",
+              "tadirObjName":"CL_BALI_LOG_DB",
+              "objectType":"CLAS",
+              "objectKey":"CL_BALI_LOG_DB"
+             }
+            ]
+        },
+        {
             "tadirObject": "DTEL",
             "tadirObjName": "S_MUN_ISO",
             "objectType": "DTEL",
