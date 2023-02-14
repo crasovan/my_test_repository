@@ -91,6 +91,17 @@
                     "objectKey": "ISOCD_UNIT"
                 }
             ]
+        },
+        {
+            "tadirObject": "TABL",
+            "tadirObjName": "DD04T",
+            "objectType": "TABL",
+            "objectKey": "DD04T",
+            "softwareComponent": "SAP_BASIS",
+            "applicationComponent": "BC-DWB-DIC-AC",
+            "state": "notToBeReleased",
+            "successorClassification": "concept",
+            "successorConceptName":"XCO Library (I18N APIs)"
         }
     ]
 }
